@@ -1,0 +1,18 @@
+# Credentials / cookies — never commit
+_subtitles/bili_cookies.txt
+*cookies*.txt
+*.cookies
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OMC internal state
+.omc/
+.claude/
