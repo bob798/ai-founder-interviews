@@ -1,3 +1,9 @@
+---
+layout: default
+title: "姚顺宇 × 张小珺 深度分析：Scaling Law、先跑实验、长任务、英雄主义终结"
+description: "Google DeepMind / Anthropic 研究员姚顺宇对话张小珺深度拆解：靠谱比聪明、实验优先于纯理论、Scaling Law 未死、长任务是下一主战场、中美 AI 的 B 端与 C 端之别。"
+---
+
 # 《张小珺访谈》姚顺宇 × 张小珺 深度分析
 
 > **视频信息**

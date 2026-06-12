@@ -1,3 +1,9 @@
+---
+layout: default
+title: "罗福莉 小米大模型 × 张小珺 深度分析：OpenCode、群体智能、Agent 范式"
+description: "小米大模型负责人、前 DeepSeek 罗福莉对话张小珺（第138期）深度拆解：Agent 是弥补行动缺陷的协调层、群体智能、训模型≈管团队、去 DAU 叙事、卡资源 3:1:1。"
+---
+
 # 张小珺 × 罗福莉（小米大模型）深度分析
 
 > **视频**：138. 对罗福莉3.5小时访谈：AI范式已然巨变！OpenCode、Agent范式很吃Post-train、卡的分配、组织平权

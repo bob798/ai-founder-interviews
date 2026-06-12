@@ -1,3 +1,9 @@
+---
+layout: default
+title: "杨植麟 Kimi × 张小珺 深度分析：K2、Muon 优化器、Agentic LLM、模型即产品"
+description: "月之暗面 Kimi 创始人杨植麟第二次对话张小珺（第113期）深度拆解：问题不可避免但可解决、test-time scaling 双维度、用 RL 管团队、K2 三大训练创新。"
+---
+
 # 张小珺 × 杨植麟（Kimi）第二次访谈 深度分析
 
 > **视频**：113. 和杨植麟时隔1年的对话：K2、Agentic LLM、缸中之脑和"站在无限的开端"

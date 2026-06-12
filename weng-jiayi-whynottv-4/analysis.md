@@ -1,3 +1,9 @@
+---
+layout: default
+title: "翁家翌 × WhynotTV 深度分析：OpenAI Infra、卖铲子、强化学习、天授"
+description: "OpenAI 工程师翁家翌对话 WhynotTV Podcast #4 深度拆解：卖铲子比挖金更有杠杆、自定义 reward function、idea 便宜验证 idea 的基础设施才值钱、天授强化学习框架。"
+---
+
 # 翁家翌 × WhynotTV Podcast #4 深度分析
 
 > **视频信息**
