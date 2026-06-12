@@ -1,0 +1,24 @@
+# AI 创始人 & 研究员深度访谈分析
+
+> 对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解。每篇 = 一场 2–4 小时对谈 → 8000–9000 字、9 大块结构（上帝视角 / 12 个核心观点 / 思想三层挖掘 / 内在张力 / 可复制 vs 不可复制 / 三角色启示 / 方法说明 / 高密度瞬间）。
+
+本站为第三方学习笔记，内容为对公开访谈视频的二次整理与分析，可能存在字幕 ASR 误差与整理者理解偏差，请以原视频为准。版权归原视频作者所有。许可：CC BY-NC-SA 4.0。
+
+## 访谈分析 Analyses
+
+- [段永平 × 方三文《方略》](https://bob798.github.io/ai-founder-interviews/duan-yongping-fang-sanwen-2025/analysis.html): 投资人段永平，主题为机会成本是投资唯一标尺、做对的事重于把事做对、不为清单（Stop-doing List）、企业文化双过滤器、20 孔理论、安全边际。
+- [姚顺宇 × 张小珺](https://bob798.github.io/ai-founder-interviews/yao-shunyu-zhang-xiaojun-en/analysis.html): Google DeepMind / Anthropic 研究员姚顺宇，主题为靠谱比聪明重要、先跑实验不信纯理论、Scaling Law 未死、长任务是下一主战场、中美 AI 的 B 端与 C 端之别。
+- [翁家翌 × WhynotTV #4](https://bob798.github.io/ai-founder-interviews/weng-jiayi-whynottv-4/analysis.html): OpenAI Infra 工程师翁家翌，主题为卖铲子比挖金更有杠杆、自定义 reward function、idea 便宜验证 idea 的基础设施才值钱、天授强化学习框架。
+- [何小鹏 × 张小珺 #143](https://bob798.github.io/ai-founder-interviews/he-xiaopeng-zhang-xiaojun-2025/analysis.html): 小鹏汽车创始人何小鹏，主题为早下注大于敢下注、物理 AI 与数字 AI 的维度差异、缝合怪自我诊断法、人形机器人两成胜率。
+- [杨植麟 Kimi × 张小珺 #113](https://bob798.github.io/ai-founder-interviews/yangzhilin-kimi-zhang-xiaojun-2025/analysis.html): 月之暗面 Kimi 创始人杨植麟，主题为问题不可避免但可解决、test-time scaling 双维度、用 RL 管团队、K2 三大创新（Muon 优化器 + MoE + 数据改写）、Agent 瓶颈是泛化性。
+- [罗福莉 小米大模型 × 张小珺 #138](https://bob798.github.io/ai-founder-interviews/luofuli-zhang-xiaojun-2025/analysis.html): 小米大模型负责人、前 DeepSeek 罗福莉，主题为 OpenCode 认知革命、Agent 是弥补行动缺陷的协调层、群体智能、训模型≈管团队、去 DAU 叙事、卡资源 3:1:1。
+- [张鹏 智谱 AI CEO × 张小珺 #129](https://bob798.github.io/ai-founder-interviews/zhangpeng-zhipu-zhang-xiaojun-2025/analysis.html): 智谱 AI CEO 张鹏，主题为成果转化=政策窗口×团队准备、认知智能≠通用智能、开源是品牌策略、百模大战焦虑的是市场塌掉、L0/L1/L2 模型分层。
+
+## 文档 Docs
+
+- [复用指南：如何下载字幕并做访谈深度分析](https://bob798.github.io/ai-founder-interviews/guide.html): yt-dlp 下载 YouTube / B 站字幕、字幕清洗脚本、常见 ASR 纠错表、9 大块分析模板与复用流程。
+
+## Optional
+
+- [项目进度 PROGRESS](https://github.com/bob798/ai-founder-interviews/blob/main/PROGRESS.md): 已完成与待处理视频、候选访谈清单、技术细节。
+- [源码仓库 GitHub](https://github.com/bob798/ai-founder-interviews): 全部分析原文（Markdown）。

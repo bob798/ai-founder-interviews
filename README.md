@@ -126,6 +126,8 @@
 
 ## 如何复用 How to reproduce
 
+> 📖 在线复用指南（含命令与脚本）：**[guide / 如何下载字幕并做 AI 访谈深度分析](https://bob798.github.io/ai-founder-interviews/guide.html)**
+
 想用同一流程分析新视频？流程如下（完整脚本见 [PROGRESS.md](./PROGRESS.md#关键技术细节复用时直接看这部分)）：
 
 1. **确定来源**——YouTube 还是 B 站
@@ -162,6 +164,17 @@ PROGRESS.md 还附带 **B 站 / 张小珺频道常见 ASR 字幕错误对照表*
 - 所有观点均为对**公开访谈视频**的二次整理，可能存在**字幕 ASR 错误**与**整理者理解偏差**（二阶失真）。请以原视频为准。
 - 版权归原视频作者所有，本仓库仅提供分析与索引，不包含完整字幕转录。
 - 内容仅供学习研究，不构成任何投资 / 商业建议。
+
+---
+
+## 网站与 AI 适配 Site & AI-readiness
+
+- 🌐 **在线站点（GitHub Pages）**：https://bob798.github.io/ai-founder-interviews/
+- 已做 **SEO / GEO / AEO / AIO** 优化：每页独立 `<title>` 与 meta description、`sitemap.xml`、Schema.org 结构化数据（`Article` / `FAQPage` / `ItemList` / `BreadcrumbList`）、面向生成式引擎的 [`llms.txt`](https://bob798.github.io/ai-founder-interviews/llms.txt) 与 `robots.txt`（显式放行 GPTBot / ClaudeBot / PerplexityBot / Google-Extended 等）。
+
+## 许可 License
+
+分析笔记（本仓库原创文本）采用 **[CC BY-NC-SA 4.0](./LICENSE)**（署名 · 非商业 · 相同方式共享）。原视频版权归各自作者所有，本许可不覆盖原视频 / 字幕。
 
 ---
 

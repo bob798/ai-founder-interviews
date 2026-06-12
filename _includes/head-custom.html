@@ -1,0 +1,79 @@
+{%- assign base = site.url | append: site.baseurl -%}
+{%- assign canonical = base | append: page.url -%}
+<link rel="canonical" href="{{ canonical }}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+{%- if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ base }}/#website",
+      "url": "{{ base }}/",
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "zh-CN",
+      "publisher": { "@id": "{{ base }}/#org" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "{{ base }}/#org",
+      "name": {{ site.title | jsonify }},
+      "url": "{{ base }}/"
+    },
+    {
+      "@type": "ItemList",
+      "name": "AI 创始人 & 研究员访谈深度分析",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": 7,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "段永平 × 方三文 深度分析", "url": "{{ base }}/duan-yongping-fang-sanwen-2025/analysis.html" },
+        { "@type": "ListItem", "position": 2, "name": "姚顺宇 × 张小珺 深度分析", "url": "{{ base }}/yao-shunyu-zhang-xiaojun-en/analysis.html" },
+        { "@type": "ListItem", "position": 3, "name": "翁家翌 × WhynotTV 深度分析", "url": "{{ base }}/weng-jiayi-whynottv-4/analysis.html" },
+        { "@type": "ListItem", "position": 4, "name": "何小鹏 × 张小珺 深度分析", "url": "{{ base }}/he-xiaopeng-zhang-xiaojun-2025/analysis.html" },
+        { "@type": "ListItem", "position": 5, "name": "杨植麟 Kimi × 张小珺 深度分析", "url": "{{ base }}/yangzhilin-kimi-zhang-xiaojun-2025/analysis.html" },
+        { "@type": "ListItem", "position": 6, "name": "罗福莉 小米大模型 × 张小珺 深度分析", "url": "{{ base }}/luofuli-zhang-xiaojun-2025/analysis.html" },
+        { "@type": "ListItem", "position": 7, "name": "张鹏 智谱 AI × 张小珺 深度分析", "url": "{{ base }}/zhangpeng-zhipu-zhang-xiaojun-2025/analysis.html" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "张小珺商业访谈录有哪些值得看的 AI 访谈分析？", "acceptedAnswer": { "@type": "Answer", "text": "本站收录 7 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）。" } },
+        { "@type": "Question", "name": "杨植麟 Kimi K2 的关键创新是什么？", "acceptedAnswer": { "@type": "Answer", "text": "三点：用 Muon 优化器替代 Adam（token efficiency 约提升 2 倍）、大规模 MoE 架构、以及数据改写以避免过拟合到原始 token。" } },
+        { "@type": "Question", "name": "罗福莉说的 Agent 时代卡资源如何分配？", "acceptedAnswer": { "@type": "Answer", "text": "研究 : 预训练 : 后训练 ≈ 3 : 1 : 1。后训练算力已追上预训练，做研究探索需要的卡最多。" } },
+        { "@type": "Question", "name": "段永平的“不为清单”(Stop-doing List) 是什么？", "acceptedAnswer": { "@type": "Answer", "text": "一份记录“不做什么”的清单。段永平认为三十年的复利不来自加法，而来自把错误的事一条条减下来。" } },
+        { "@type": "Question", "name": "这些分析是 AI 生成的吗？可信吗？", "acceptedAnswer": { "@type": "Answer", "text": "由结构化的多轮 Self-Debate 流程从原始字幕提炼，核心观点附带视频时间戳可回原片核对。存在字幕 ASR 误差与整理者理解偏差（二阶失真），请以原视频为准。" } }
+      ]
+    }
+  ]
+}
+</script>
+{%- else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "inLanguage": "zh-CN",
+      "url": "{{ canonical }}",
+      "mainEntityOfPage": "{{ canonical }}",
+      "author": { "@type": "Organization", "name": {{ site.title | jsonify }}, "url": "{{ base }}/" },
+      "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }}, "url": "{{ base }}/" },
+      "isPartOf": { "@type": "WebSite", "url": "{{ base }}/", "name": {{ site.title | jsonify }} }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "首页", "item": "{{ base }}/" },
+        { "@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": "{{ canonical }}" }
+      ]
+    }
+  ]
+}
+</script>
+{%- endif %}
