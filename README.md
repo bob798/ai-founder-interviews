@@ -1,17 +1,15 @@
 # AI 创始人 & 研究员深度访谈分析 | AI Founder & Researcher Interview Analyses
 
-> 对中文互联网最有价值的 **AI 创始人、AI 研究员长访谈**（张小珺商业访谈录、WhynotTV、雪球《方略》等）做的**结构化深度拆解**。
-> 每篇分析 = 1 场 2–4 小时对谈 → 8000–9000 字 / 9 大块结构（上帝视角 · 12 个核心观点 · 思想三层挖掘 · 内在张力 · 可复制清单 · 三角色启示）。
-
-**关键词 / Keywords**：AI 创始人访谈、大模型创业、AI 研究方法论、张小珺商业访谈录解读、段永平投资、杨植麟 Kimi、罗福莉 小米大模型、何小鹏 小鹏汽车、张鹏 智谱 AI、肖弘 Manus、姚顺宇 DeepMind/Anthropic、翁家翌 OpenAI、Scaling Law、强化学习 RL、Post-training、Agent、Multi-agent、机会成本、长期主义。
+> **把一场 2–4 小时的 AI 创始人 / 研究员访谈，变成 10 分钟读完、能直接带走执行清单的结构化笔记。**
+> 每篇给你三样东西：**12 个核心观点**（按实操价值排序）· **可复制 vs 不可复制清单**（哪些方法你能抄，哪些抄不了）· **给研究员 / 创业者 / 投资人的可执行启示**。每句原话带时间戳，可跳回字幕与原片核对。
 
 ---
 
 ## 📑 目录 Table of Contents
 
-- [这是什么 What is this](#这是什么-what-is-this)
-- [访谈分析索引 Index](#访谈分析索引-index)
+- [访谈分析目录 Index](#访谈分析目录--一句话价值-index)——8 篇分析 + 每篇一句话价值
 - [逐篇精华 Highlights](#逐篇精华-highlights)
+- [这是什么 What is this](#这是什么-what-is-this)
 - [分析方法 Methodology](#分析方法-methodology)
 - [如何复用 How to reproduce](#如何复用-how-to-reproduce)
 - [常见问题 FAQ](#常见问题-faq)
@@ -19,35 +17,22 @@
 
 ---
 
-## 这是什么 What is this
+## 访谈分析目录 · 一句话价值 Index
 
-这是一个开源的 **AI 行业长访谈深度分析库**。我们挑选高信息密度的创始人 / 研究员对谈视频，下载并清洗字幕，然后用一套固定的 **5 轮 Self-Debate** 流程，把 2–4 小时口语对话提炼为可检索、可执行的结构化笔记。
+**扫一眼这张表，你就知道每篇能拿走什么：**
 
-适合人群：
+| 嘉宾（身份） | 一句话价值 —— 读完你能拿走什么 | 时长 | 阅读 |
+|------------|---------------------------|------|------|
+| **段永平**（投资人 · OPPO/vivo/步步高） | 一套"不做错事"的决策系统：机会成本反问法 + 不为清单，含普通人可直接抄的部分 | 1:53 | [📄](./duan-yongping-fang-sanwen-2025/analysis.md) · [v2](./duan-yongping-fang-sanwen-2025/analysis-v2.md) |
+| **姚顺宇**（研究员 · DeepMind / Anthropic） | 顶级 AI 研究员的工作方法：为什么"靠谱比聪明重要"、怎么用跑实验替代空想 | 3:48 | [📄](./yao-shunyu-zhang-xiaojun-en/analysis.md) |
+| **翁家翌**（Infra 工程师 · OpenAI） | 如何找到"卖铲子"的职业身位：用 Infra 杠杆放大个人价值，而不是挤在挖金主赛道 | 2:02 | [📄](./weng-jiayi-whynottv-4/analysis.md) |
+| **何小鹏**（创始人 · 小鹏汽车） | 判断力到位后怎么下注：物理 AI 和数字 AI 为什么是两回事、怎么自查"缝合怪"产品 | 1:28 | [📄](./he-xiaopeng-zhang-xiaojun-2025/analysis.md) |
+| **杨植麟**（创始人 · Kimi / 月之暗面） | 大模型公司的技术战略怎么定：K2 三大创新背后的取舍逻辑、Agent 的真瓶颈是泛化性 | 1:41 | [📄](./yangzhilin-kimi-zhang-xiaojun-2025/analysis.md) |
+| **罗福莉**（大模型负责人 · 小米，前 DeepSeek） | 大模型团队怎么带：训模型 ≈ 管团队、算力 3:1:1 怎么分、Agent 到底是什么层 | 3:36 | [📄](./luofuli-zhang-xiaojun-2025/analysis.md) |
+| **张鹏**（CEO · 智谱 AI） | 技术公司怎么活过窗口期：成果转化 = 政策窗口 × 团队准备、toB 商业化的清醒账 | 2:26 | [📄](./zhangpeng-zhipu-zhang-xiaojun-2025/analysis.md) |
+| **肖弘**（创始人 · Manus / Monica） | 应用创业者怎么在模型厂夹缝卡位：预判模型能力提前造壳、用博弈判断"大厂会不会做我" | 1:10 | [📄](./xiaohong-manus-zhang-xiaojun-2025/analysis.md) |
 
-- **AI 研究员 / 工程师** —— 看一线从业者怎么谈 Scaling Law、RL、post-training、Agent、Infra
-- **创业者 / CEO** —— 看创始人怎么做范式判断、组织管理、商业化取舍
-- **投资人 / 行业研究者** —— 一篇笔记抵一次 3 小时播客，带原话时间戳可回溯
-- **个人成长读者** —— 提炼"可复制 vs 不可复制"的方法论清单
-
-目前已收录 **8 篇深度分析**，覆盖大模型、AI Agent、自动驾驶、机器人、AI 投资等方向。
-
----
-
-## 访谈分析索引 Index
-
-| # | 嘉宾 Guest | 身份 / 公司 | 主持 · 频道 | 时长 | 核心议题 | 分析 |
-|---|-----------|------------|------------|------|---------|------|
-| 1 | **段永平** | 投资人 · OPPO/vivo/步步高 | 方三文 · 雪球《方略》 | 1:53 | 机会成本、不为清单、长期主义、企业文化 | [📄 阅读](./duan-yongping-fang-sanwen-2025/analysis.md) · [v2 带时间戳](./duan-yongping-fang-sanwen-2025/analysis-v2.md) |
-| 2 | **姚顺宇** | 研究员 · Google DeepMind / Anthropic | 张小珺 | 3:48 | 英雄主义终结、先跑实验、Scaling Law、长任务 | [📄 阅读](./yao-shunyu-zhang-xiaojun-en/analysis.md) |
-| 3 | **翁家翌** | Infra 工程师 · OpenAI | WhynotTV Podcast #4 | 2:02 | 卖铲子、Infra 杠杆、自定义 reward、强化学习 | [📄 阅读](./weng-jiayi-whynottv-4/analysis.md) |
-| 4 | **何小鹏** | 创始人 · 小鹏汽车 | 张小珺 #143 | 1:28 | 物理 AI vs 数字 AI、人形机器人、范式迭代 | [📄 阅读](./he-xiaopeng-zhang-xiaojun-2025/analysis.md) |
-| 5 | **杨植麟** | 创始人 · Kimi / 月之暗面 | 张小珺 #113 | 1:41 | K2、Muon 优化器、Agentic LLM、模型即产品 | [📄 阅读](./yangzhilin-kimi-zhang-xiaojun-2025/analysis.md) |
-| 6 | **罗福莉** | 大模型负责人 · 小米（前 DeepSeek） | 张小珺 #138 | 3:36 | OpenCode、群体智能、Agent 范式、卡资源分配 | [📄 阅读](./luofuli-zhang-xiaojun-2025/analysis.md) |
-| 7 | **张鹏** | CEO · 智谱 AI | 张小珺 #129 | 2:26 | 清华血脉、政策窗口、百模大战、L0/L1/L2 分层 | [📄 阅读](./zhangpeng-zhipu-zhang-xiaojun-2025/analysis.md) |
-| 8 | **肖弘** | 创始人 · Manus / Monica | 张小珺 | 1:10 | 新安迪-比尔定律、真 Agent 架构、博弈式思考 | [📄 阅读](./xiaohong-manus-zhang-xiaojun-2025/analysis.md) |
-
-> 进度、待处理视频与字幕抓取技术细节见 [PROGRESS.md](./PROGRESS.md)。
+> 访谈来源：张小珺商业访谈录、WhynotTV、雪球《方略》。进度、待处理视频与字幕抓取技术细节见 [PROGRESS.md](./PROGRESS.md)。
 
 ---
 
@@ -110,6 +95,19 @@
 - **真 Agent = 虚拟机 + 浏览器 + 自己写代码调 API**——接一堆 API 是在做功能机。
 - **用博弈的方式思考，而不是逻辑推导**——让自己成为博弈中那个重要的变量。
 - 👉 [完整分析](./xiaohong-manus-zhang-xiaojun-2025/analysis.md)
+
+---
+
+## 这是什么 What is this
+
+一个开源的 **AI 行业长访谈深度分析库**：挑选高信息密度的创始人 / 研究员对谈视频（张小珺商业访谈录、WhynotTV、雪球《方略》等），下载并清洗字幕，用一套固定的 **5 轮 Self-Debate** 流程，把 2–4 小时口语对话提炼为可检索、可执行的结构化笔记。目前已收录 **8 篇**。
+
+适合人群：
+
+- **AI 研究员 / 工程师** —— 看一线从业者怎么谈 Scaling Law、RL、post-training、Agent、Infra
+- **创业者 / CEO** —— 看创始人怎么做范式判断、组织管理、商业化取舍
+- **投资人 / 行业研究者** —— 一篇笔记抵一次 3 小时播客，带原话时间戳可回溯
+- **个人成长读者** —— 提炼"可复制 vs 不可复制"的方法论清单
 
 ---
 
@@ -179,6 +177,8 @@ PROGRESS.md 还附带 **B 站 / 张小珺频道常见 ASR 字幕错误对照表*
 
 - 🌐 **在线站点（GitHub Pages）**：https://bob798.github.io/ai-founder-interviews/
 - 已做 **SEO / GEO / AEO / AIO** 优化：每页独立 `<title>` 与 meta description、`sitemap.xml`、Schema.org 结构化数据（`Article` / `FAQPage` / `ItemList` / `BreadcrumbList`）、面向生成式引擎的 [`llms.txt`](https://bob798.github.io/ai-founder-interviews/llms.txt) 与 `robots.txt`（显式放行 GPTBot / ClaudeBot / PerplexityBot / Google-Extended 等）。
+
+<sub>**关键词 / Keywords**：AI 创始人访谈、大模型创业、AI 研究方法论、张小珺商业访谈录解读、段永平投资、杨植麟 Kimi、罗福莉 小米大模型、何小鹏 小鹏汽车、张鹏 智谱 AI、肖弘 Manus、姚顺宇 DeepMind/Anthropic、翁家翌 OpenAI、Scaling Law、强化学习 RL、Post-training、Agent、Multi-agent、机会成本、长期主义。</sub>
 
 ## 许可 License
 
