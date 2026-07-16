@@ -11,7 +11,7 @@ description: "Manus 创始人肖弘对话张小珺（Manus 发布前 20 天录�
 > **时长**：1:10:49
 > **嘉宾**：肖弘（Manus / Monica 创始人，蝴蝶效应 Butterfly Effect CEO；华中科技大学 2015 届，第一次创业做企业微信生态 CRM）
 > **B 站**：https://www.bilibili.com/video/BV1N7oBYNEoU/
-> **字幕来源**：B 站 ai-zh 中文字幕（2046 行）
+> **字幕来源**：B 站 ai-zh 中文字幕（[清洗后全文 2046 行，仓库内可查](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt)）
 > **关键背景**：对谈录制于 **2025 年春节后（约 2 月）**，即 DeepSeek R1 刷屏之后、**Manus 发布（2025-03-06）之前约 20 天**。肖弘全程在描述一个"还没发布的 agent 产品"——就是 Manus。这使本访谈成为罕见的"预告式史料"：他的每一个判断都在 20 天后被公开检验。
 
 ---
@@ -33,17 +33,17 @@ description: "Manus 创始人肖弘对话张小珺（Manus 发布前 20 天录�
 
 肖弘整场的姿态是一个**产业史类比者**：他不引学术文献，引的是安迪-比尔定律、张忠谋自传、hao123 与 Google、功能机与智能机、第三方应用商店——**用上一场战争的地图，标定这一场战争里自己的位置**。
 
-**对谈时间轴导览**（时间戳可点击跳转 B 站原片）：
+**对谈时间轴导览**（时间戳 → 仓库内[清洗后字幕](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt)对应行，可读上下文原话；▶ → B 站原片对应秒数）：
 
 | 时间段 | 话题 | 关键内容 |
 |--------|------|---------|
-| [00:01](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=96)–00:08 | AI 应用演化规律 | Jasper→ChatGPT→Monica→Cursor 的四代规律；新安迪-比尔定律 |
-| [00:08](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=489)–00:15 | 模型 vs 应用的分工 | 张忠谋/台积电分层类比；原厂不做什么（脏活累活/垂直/窗口期） |
-| [00:15](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=915)–00:23 | 复盘 DeepSeek | be yourself；思考过程展示是体验创新；OpenAI 的遗憾 |
-| [00:23](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=1414)–00:38 | 未发布的 agent 产品（即 Manus） | 功能机类比；虚拟机+浏览器+自写代码架构；异步交互；GAIA 测试 |
-| [00:38](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=2286)–00:47 | agentic 能力与创业心态 | 只有 Claude 3.5 Sonnet 跑得起来；热爱的定义；23/24/25 三个春节 |
-| [00:47](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=2870)–01:02 | 创业者心法 | 时代年龄思考；贪嗔痴；白领是人类的弯路；不做模型的务实 |
-| [01:02](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=3722)–01:10 | 生态判断与快问快答 | DeepSeek 让应用公司安全；博弈式思考；垂直机会公式 |
+| [00:01](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L37)–00:08 · [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=96) | AI 应用演化规律 | Jasper→ChatGPT→Monica→Cursor 的四代规律；新安迪-比尔定律 |
+| [00:08](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L229)–00:15 · [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=489) | 模型 vs 应用的分工 | 张忠谋/台积电分层类比；原厂不做什么（脏活累活/垂直/窗口期） |
+| [00:15](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L419)–00:23 · [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=915) | 复盘 DeepSeek | be yourself；思考过程展示是体验创新；OpenAI 的遗憾 |
+| [00:23](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L677)–00:38 · [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=1414) | 未发布的 agent 产品（即 Manus） | 功能机类比；虚拟机+浏览器+自写代码架构；异步交互；GAIA 测试 |
+| [00:38](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L1100)–00:47 · [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=2286) | agentic 能力与创业心态 | 只有 Claude 3.5 Sonnet 跑得起来；热爱的定义；23/24/25 三个春节 |
+| [00:47](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L1394)–01:02 · [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=2870) | 创业者心法 | 时代年龄思考；贪嗔痴；白领是人类的弯路；不做模型的务实 |
+| [01:02](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L1802)–01:10 · [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=3722) | 生态判断与快问快答 | DeepSeek 让应用公司安全；博弈式思考；垂直机会公式 |
 
 ---
 
@@ -256,19 +256,19 @@ description: "Manus 创始人肖弘对话张小珺（Manus 发布前 20 天录�
 
 ## 附录：对谈原话摘录（最高密度的 5 个瞬间）
 
-> 时间戳可点击，直接跳转到 B 站原视频对应位置核对原话。
+> 时间戳可点击，跳转到仓库内[清洗后字幕](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt)的对应行（可读前后文原话）；▶ 跳转 B 站原视频对应秒数。
 
-1. **[[00:28:02]](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=1682)"他说好，我现在去 GitHub 上下这个代码……那一瞬间我就被闪电击中一样的感觉——他居然在用工具。"**
+1. **[[00:28:02]](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L803)"他说好，我现在去 GitHub 上下这个代码……那一瞬间我就被闪电击中一样的感觉——他居然在用工具。"** [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=1682)
    → Manus 的起点时刻：看到 Windsurf 自主下载 GitHub 代码，意识到 agent 真的到了
 
-2. **[[00:40:27]](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=2427)"我靠他居然在看 YouTube 视频，他告诉我，我在摁住快捷键在看……你是真的会觉得自己在制造一个生命一样的东西。"**
+2. **[[00:40:27]](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L1166)"我靠他居然在看 YouTube 视频，他告诉我，我在摁住快捷键在看……你是真的会觉得自己在制造一个生命一样的东西。"** [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=2427)
    → GAIA 测试中 agent 用 YouTube 快捷键精确定位画面数动物——创造者的 aha moment
 
-3. **[[00:42:23]](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=2543)"如果我只能打一个电话告诉我的合伙人，我说别管我，赶紧继续往前推进……就在那一刻，我自己已经不重要了，而是那个事儿更重要。"**
+3. **[[00:42:23]](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L1226)"如果我只能打一个电话告诉我的合伙人，我说别管我，赶紧继续往前推进……就在那一刻，我自己已经不重要了，而是那个事儿更重要。"** [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=2543)
    → 疲劳驾驶假想，他对"热爱"的操作性定义
 
-4. **[[01:04:58]](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=3898)"博弈的方式思考，就是因为你的出现和其他 player 的出现，可能使得整个环境不一样了……尽量让自己成为那个很重要的变量。"**
+4. **[[01:04:58]](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L1883)"博弈的方式思考，就是因为你的出现和其他 player 的出现，可能使得整个环境不一样了……尽量让自己成为那个很重要的变量。"** [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=3898)
    → 整期节目的题眼：世界不是线性外推的
 
-5. **[[00:22:49]](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=1369)"所以我会说 DeepSeek 很单纯哦：我做出来了，拿个东西给他感受到，句号。"**
+5. **[[00:22:49]](https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xiaohong.txt#L651)"所以我会说 DeepSeek 很单纯哦：我做出来了，拿个东西给他感受到，句号。"** [▶](https://www.bilibili.com/video/BV1N7oBYNEoU/?t=1369)
    → 对"技术创新以用户可感知方式呈现"的最简表述，暗讽 OpenAI 藏起 o1 思考过程

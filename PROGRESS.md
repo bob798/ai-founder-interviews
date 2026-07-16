@@ -247,7 +247,8 @@ def clean_vtt(input_file, output_file):
 3. **失败案例 > 成功案例**：嘉宾自承的错误暴露方法论真实边界（v2 引入但 v1 没单独成节）
 4. **三种角色清单要可执行**：动作清单，不是原则陈述
 5. **客观局限性声明**：明确告知二阶失真、字幕错误、整理者非专业人士
-6. **时间戳深链回原片**（2026-07 起，肖弘篇首次应用）：
-   - 附录"高密度瞬间"的时间戳做成可点击链接，B 站格式 `https://www.bilibili.com/video/BVxxxx/?t=<秒数>`，YouTube 格式 `https://youtu.be/VIDEO_ID?t=<秒数>`
-   - 第 I 节"上帝视角"后加一张**对谈时间轴导览表**（时间段 | 话题 | 关键内容，段首时间戳带深链），让读者在"分析 ↔ 原片"之间双向定位
-   - 原始字幕不随站点发布（版权，`_subtitles/` 已 exclude），信息连贯靠深链而非转载全文
+6. **时间戳双链：仓库字幕行 + 原片秒数**（2026-07 起，肖弘篇首次应用）：
+   - 主链：时间戳 → 仓库内清洗后字幕的对应行，GitHub blob 格式 `https://github.com/bob798/ai-founder-interviews/blob/main/_subtitles/v_xxx.txt#L<行号>`（行号用 `grep -n "^\[HH:MM:SS\]" _subtitles/v_xxx.txt` 查）
+   - 辅链：`▶` → 原片对应秒数，B 站 `https://www.bilibili.com/video/BVxxxx/?t=<秒数>`，YouTube `https://youtu.be/VIDEO_ID?t=<秒数>`
+   - 应用位置：① 视频信息块的"字幕来源"链到清洗后字幕全文；② 第 I 节后的**对谈时间轴导览表**（时间段 | 话题 | 关键内容）；③ 附录"高密度瞬间"逐条双链
+   - 字幕文件不随 Jekyll 站点发布（`_subtitles/` 已 exclude）但在 GitHub 仓库公开，深链走 github.com blob 页
