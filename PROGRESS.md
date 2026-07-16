@@ -6,7 +6,7 @@
 
 ---
 
-## 已完成的分析（9 份）
+## 已完成的分析（10 份）
 
 | # | 嘉宾 | 主持/频道 | 时长 | 目录 | 字幕来源 |
 |---|------|---------|------|------|--------|
@@ -19,6 +19,7 @@
 | 7 | 张鹏 (智谱AI) | 张小珺 129 | 2:26:40 | `zhangpeng-zhipu-zhang-xiaojun-2025/` | B 站 ai-zh |
 | 8 | 肖弘 (Manus/Monica) | 张小珺 | 1:10:49 | `xiaohong-manus-zhang-xiaojun-2025/` | B 站 ai-zh (BV1N7oBYNEoU) |
 | 9 | 阳萌 (Anker 安克创新) | 张小珺 | 3:37:32 | `yangmeng-anker-zhang-xiaojun-2026/` | B 站 ai-zh (BV1dyE86bENz) |
+| 10 | 柯丽一鸣 (Physical Intelligence) | 张小珺 | 3:46:12 | `keliyiming-pi-zhang-xiaojun-2026/` | B 站 ai-zh (BV12bNB6vEtt) |
 
 **每份输出规模**：约 280-300 行 / 8000-9000 字，9 大块结构（上帝视角 / 12 观点 / 三层挖掘 / 内在张力 / 可复制 vs 不可复制 / 三角色清单 / 方法说明 / 附录）
 
@@ -49,8 +50,9 @@
 
 | BV | 标题 | 时长 | 上传 |
 |----|------|------|------|
-| BV12bNB6vEtt | 柯丽一鸣 (Physical Intelligence)：PI 开源模型研究、机器人江湖 | 3:46:12 | 2026-07-16 |
 | BV1HfEy6jEUx | 洪力德 (前 SpaceX 高管)：口述 SpaceX 开发史、马斯克用人观 | 3:00:03 | 2026-06-12 |
+
+（柯丽一鸣 BV12bNB6vEtt 已完成分析，见上表第 10 篇）
 
 （同批检索到的 BV1d4GU6wEDo 何小鹏第二次 / BV1YR5E6EE9o 姚顺宇 / BV1iVoVBgERD 罗福莉为已分析期数的 B 站上传，勿重复分析）
 
@@ -206,6 +208,17 @@ def clean_vtt(input_file, output_file):
 - "Scrum" → "死光" / "司法" / "SCP" / "SCM" / "swam"
 - "《领导梯队》(The Leadership Pipeline)" → "领导阶梯"；"拉姆·查兰" → "拉姆查兰"
 - "《有限与无限的游戏》" → "有限的无限无限的游戏"
+- "柯丽一鸣" → "柯利一鸣" / "柯林一鸣" / "颗粒一鸣" / "克利一鸣"
+- "PI / Physical Intelligence / π" → "派" / "pad" / "拍" / "太" / "排"
+- "Claude Code" → "cloud code" / "clod code" / "clock code" / "cod agent" / "CD agent"
+- "Sergey Levine" → "SIRI" / "sir队" / "sir月" / "circuit" / "SURI" / "surge"
+- "Chelsea Finn" → "敲碎" / "肖C" / "CHAI" / "chi"
+- "Karol Hausman" → "carl horseman"
+- "宇树" → "语数" / "吕树"
+- "UMI" → "优米" / "污蔑"
+- "北极星" → "北京新指标"
+- "Franka" → "FRANA" / "FRANCA" / "FRAN卡"
+- "布尔迪厄《区分》(Distinction)" → "distinct" / "construction of social taste"
 
 ---
 
@@ -221,6 +234,7 @@ def clean_vtt(input_file, output_file):
 | `v4_weng_zh.txt` | 翁家翌 YouTube zh-Hans | 3496 行 |
 | `v_xiaohong.txt` | 肖弘 B 站 ai-zh (BV1N7oBYNEoU) | 2046 行 |
 | `v_yangmeng.txt` | 阳萌 B 站 ai-zh (BV1dyE86bENz) | 4657 行 |
+| `v_keliyiming.txt` | 柯丽一鸣 B 站 ai-zh (BV12bNB6vEtt) | 6214 行 |
 | `bili_cookies.txt` | Chrome 导出的 B 站 cookies | 3359 行 |
 
 **段永平**字幕没存档，因为是 `/tmp/transcript.txt` 已删（YouTube `1ikLMn2naSA`，时长 1:53:47，可重新下载）

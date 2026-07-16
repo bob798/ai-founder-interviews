@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "AI 创始人 & 研究员深度访谈分析"
-description: "对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解：段永平、姚顺宇、翁家翌、何小鹏、杨植麟 Kimi、罗福莉、张鹏 智谱 AI、肖弘 Manus、阳萌 Anker。"
+description: "对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解：段永平、姚顺宇、翁家翌、何小鹏、杨植麟 Kimi、罗福莉、张鹏 智谱 AI、肖弘 Manus、阳萌 Anker、柯丽一鸣 Physical Intelligence。"
 ---
 
 # AI 创始人 & 研究员深度访谈分析
@@ -26,6 +26,7 @@ description: "对中文互联网最有价值的 AI 创始人、AI 研究员长�
 | 7 | **张鹏** | CEO · 智谱 AI | 张小珺 #129 | 2:26 | 百模大战、政策窗口、L0/L1/L2 分层 | [阅读](./zhangpeng-zhipu-zhang-xiaojun-2025/analysis.html) |
 | 8 | **肖弘** | 创始人 · Manus / Monica | 张小珺 | 1:10 | 新安迪-比尔定律、真 Agent 架构、博弈式思考 | [阅读](./xiaohong-manus-zhang-xiaojun-2025/analysis.html) |
 | 9 | **阳萌** | 创始人 · Anker 安克创新 | 张小珺 | 3:37 | 1357 人群、浅海战略、第三类公司、存算一体 | [阅读](./yangmeng-anker-zhang-xiaojun-2026/analysis.html) |
+| 10 | **柯丽一鸣** | 研究员 · Physical Intelligence (π) | 张小珺 | 3:46 | π 三部曲、不做人形、真机数据、机器人族谱 | [阅读](./keliyiming-pi-zhang-xiaojun-2026/analysis.html) |
 
 ---
 
@@ -67,6 +68,10 @@ Agent 是弥补行动缺陷的协调层 · 训模型 ≈ 管团队 · 卡在卡�
 1357 人群 / 浅海深海 / 第三类公司 · 分治法 → 端到端与存算一体芯片 · 中层管理者不会被 AI 消灭。
 [完整分析 →](./yangmeng-anker-zhang-xiaojun-2026/analysis.html)
 
+### 10. 柯丽一鸣（Physical Intelligence 研究员）× 张小珺：一个"独狼玩家"画的机器人江湖族谱
+π0/π0.5/π0.6* 三部曲（能力→泛化→表现）· 通用大脑≠人形 · 真机数据信仰与体验数据飞轮 · 评估是隐形前沿。
+[完整分析 →](./keliyiming-pi-zhang-xiaojun-2026/analysis.html)
+
 ---
 
 ## 分析方法
@@ -80,7 +85,10 @@ Agent 是弥补行动缺陷的协调层 · 训模型 ≈ 管团队 · 卡在卡�
 ## 常见问题 FAQ
 
 **张小珺商业访谈录有哪些值得看的 AI 访谈分析？**
-本站收录 9 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）、肖弘（Manus 创始人）、阳萌（Anker 安克创新 CEO）。
+本站收录 10 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）、肖弘（Manus 创始人）、阳萌（Anker 安克创新 CEO）、柯丽一鸣（Physical Intelligence 研究员）。
+
+**Physical Intelligence（PI/π）的 π0、π0.5、π0.6* 分别解决什么问题？**
+π0 回答"能力"（叠衣服、叠箱子等此前做不到的任务能不能做），π0.5 回答"泛化"（在 100 个真实家庭做开放世界实验，发现 in-distribution 存在"够用的尺寸"），π0.6* 回答"表现"（用机器人自采的体验数据做强化学习，叠衣服吞吐量超越最好的人类数据采集员）。
 
 **阳萌说的"第三类公司"是什么？**
 第一类公司做少量超级品类（苹果、特斯拉），第二类做少量中小品类（大多数公司），第三类**系统性地做好几十个中小品类**（索尼、宝洁、耐克、德州仪器）。第三类公司需要"总统和联邦"而非"国王和骑士团"的管理模式——这是安克的目标形态。

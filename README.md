@@ -7,7 +7,7 @@
 
 ## 📑 目录 Table of Contents
 
-- [访谈分析目录 Index](#访谈分析目录--一句话价值-index)——9 篇分析 + 每篇一句话价值
+- [访谈分析目录 Index](#访谈分析目录--一句话价值-index)——10 篇分析 + 每篇一句话价值
 - [逐篇精华 Highlights](#逐篇精华-highlights)
 - [这是什么 What is this](#这是什么-what-is-this)
 - [分析方法 Methodology](#分析方法-methodology)
@@ -32,6 +32,7 @@
 | **张鹏**（CEO · 智谱 AI） | 技术公司怎么活过窗口期：成果转化 = 政策窗口 × 团队准备、toB 商业化的清醒账 | 2:26 | [📄](./zhangpeng-zhipu-zhang-xiaojun-2025/analysis.md) |
 | **肖弘**（创始人 · Manus / Monica） | 应用创业者怎么在模型厂夹缝卡位：预判模型能力提前造壳、用博弈判断"大厂会不会做我" | 1:10 | [📄](./xiaohong-manus-zhang-xiaojun-2025/analysis.md) |
 | **阳萌**（创始人 · Anker 安克创新） | 消费电子公司怎么穿越 AI 范式：1357 人群 / 浅海深海 / 第三类公司三套框架 + 存算一体芯片的第一性推演 | 3:37 | [📄](./yangmeng-anker-zhang-xiaojun-2026/analysis.md) |
+| **柯丽一鸣**（研究员 · Physical Intelligence） | 一张机器人江湖地图：两大派系族谱、π 三部曲怎么排问题、为什么通用大脑≠人形、怎么判断数据和 demo 的成色 | 3:46 | [📄](./keliyiming-pi-zhang-xiaojun-2026/analysis.md) |
 
 > 访谈来源：张小珺商业访谈录、WhynotTV、雪球《方略》。进度、待处理视频与字幕抓取技术细节见 [PROGRESS.md](./PROGRESS.md)。
 
@@ -104,11 +105,18 @@
 - **中层管理者不会被 AI 消灭**——context 长度 + 康威定律的工程师式论证。
 - 👉 [完整分析](./yangmeng-anker-zhang-xiaojun-2026/analysis.md)
 
+### 10. 柯丽一鸣（Physical Intelligence 研究员）× 张小珺：一个"独狼玩家"画的机器人江湖族谱
+> 从 CMU 传统派到学习派的一线视角，辞掉剑桥教职加入创立三个月的 PI。
+- **π 三部曲**——π0 能力 → π0.5 泛化 → π0.6* 表现，机器人大模型的问题排序模板。
+- **通用大脑 ≠ 人形**——"他们要说做人形我就不来了"；通用=一个大脑操纵很多构型。
+- **评估是隐形前沿**——没有跑马场榜单；"demo 是一回事，背后的进步是另一回事"。
+- 👉 [完整分析](./keliyiming-pi-zhang-xiaojun-2026/analysis.md)
+
 ---
 
 ## 这是什么 What is this
 
-一个开源的 **AI 行业长访谈深度分析库**：挑选高信息密度的创始人 / 研究员对谈视频（张小珺商业访谈录、WhynotTV、雪球《方略》等），下载并清洗字幕，用一套固定的 **5 轮 Self-Debate** 流程，把 2–4 小时口语对话提炼为可检索、可执行的结构化笔记。目前已收录 **9 篇**。
+一个开源的 **AI 行业长访谈深度分析库**：挑选高信息密度的创始人 / 研究员对谈视频（张小珺商业访谈录、WhynotTV、雪球《方略》等），下载并清洗字幕，用一套固定的 **5 轮 Self-Debate** 流程，把 2–4 小时口语对话提炼为可检索、可执行的结构化笔记。目前已收录 **10 篇**。
 
 适合人群：
 
