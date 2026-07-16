@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "AI 创始人 & 研究员深度访谈分析"
-description: "对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解：段永平、姚顺宇、翁家翌、何小鹏、杨植麟 Kimi、罗福莉、张鹏 智谱 AI、肖弘 Manus、阳萌 Anker、柯丽一鸣 Physical Intelligence、洪力德 SpaceX。"
+description: "对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解：段永平、姚顺宇、翁家翌、何小鹏、杨植麟 Kimi、罗福莉、张鹏 智谱 AI、肖弘 Manus、阳萌 Anker、柯丽一鸣 Physical Intelligence、洪力德 SpaceX、李想 理想汽车。"
 ---
 
 # AI 创始人 & 研究员深度访谈分析
@@ -28,6 +28,7 @@ description: "对中文互联网最有价值的 AI 创始人、AI 研究员长�
 | 9 | **阳萌** | 创始人 · Anker 安克创新 | 张小珺 | 3:37 | 1357 人群、浅海战略、第三类公司、存算一体 | [阅读](./yangmeng-anker-zhang-xiaojun-2026/analysis.html) |
 | 10 | **柯丽一鸣** | 研究员 · Physical Intelligence (π) | 张小珺 | 3:46 | π 三部曲、不做人形、真机数据、机器人族谱 | [阅读](./keliyiming-pi-zhang-xiaojun-2026/analysis.html) |
 | 11 | **洪力德** | 前 SpaceX 高管 · 硬科技投资人 | 张小珺 | 3:00 | SpaceX 开发史、马斯克用人观、可乐罐第一性、太空产业链 | [阅读](./honglide-spacex-zhang-xiaojun-2026/analysis.html) |
+| 12 | **李想** | 创始人 · 理想汽车（第二次访谈） | 张小珺 | 2:43 | 工具三分级、VLA 司机大模型、能量与亲密关系 | [阅读](./lixiang-2-zhang-xiaojun-2025/analysis.html) |
 
 ---
 
@@ -77,6 +78,10 @@ Agent 是弥补行动缺陷的协调层 · 训模型 ≈ 管团队 · 卡在卡�
 火箭是手段不是目的 · 每公斤成本 2 万→3000→100 美元 · 可乐罐第一性与马斯克三会原则 · NASA cost-plus 转向。
 [完整分析 →](./honglide-spacex-zhang-xiaojun-2026/analysis.html)
 
+### 12. 李想（理想汽车创始人）× 张小珺 第二次访谈：一个"CEO 大模型"的自我推理演示
+工具三分级（信息/辅助/生产）· VLA 司机大模型全流程 · 最佳实践是反人性的 · 3–7 人能量场。
+[完整分析 →](./lixiang-2-zhang-xiaojun-2025/analysis.html)
+
 ---
 
 ## 分析方法
@@ -90,7 +95,10 @@ Agent 是弥补行动缺陷的协调层 · 训模型 ≈ 管团队 · 卡在卡�
 ## 常见问题 FAQ
 
 **张小珺商业访谈录有哪些值得看的 AI 访谈分析？**
-本站收录 11 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）、肖弘（Manus 创始人）、阳萌（Anker 安克创新 CEO）、柯丽一鸣（Physical Intelligence 研究员）、洪力德（前 SpaceX 高管）。
+本站收录 12 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）、肖弘（Manus 创始人）、阳萌（Anker 安克创新 CEO）、柯丽一鸣（Physical Intelligence 研究员）、洪力德（前 SpaceX 高管）、李想（理想汽车创始人，第二次访谈）。
+
+**李想说的"工具三分级"是什么？**
+信息工具（只给参考，用户不愿付费）→ 辅助工具（提升现有产品竞争力，是产品标配）→ 生产工具（真正替代专业工作、用户愿意付费）。李想认为 Agent 最重要的评判条件就是它是否是生产工具；AI 火了但大家工作时长没减少，因为多数产品还停在信息工具层。
 
 **SpaceX 把每公斤入轨成本降了多少？**
 据前 SpaceX 猎鹰 9 号首席制造工程师洪力德：SpaceX 之前约 2 万美元/公斤，猎鹰 9 号回收后降到约 3000 美元，星舰目标是 100 美元以下——降到 1% 时，"以前太空里的天方夜谭在账上都算得过来"。

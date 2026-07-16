@@ -6,7 +6,7 @@
 
 ---
 
-## 已完成的分析（11 份）
+## 已完成的分析（12 份）
 
 | # | 嘉宾 | 主持/频道 | 时长 | 目录 | 字幕来源 |
 |---|------|---------|------|------|--------|
@@ -21,6 +21,7 @@
 | 9 | 阳萌 (Anker 安克创新) | 张小珺 | 3:37:32 | `yangmeng-anker-zhang-xiaojun-2026/` | B 站 ai-zh (BV1dyE86bENz) |
 | 10 | 柯丽一鸣 (Physical Intelligence) | 张小珺 | 3:46:12 | `keliyiming-pi-zhang-xiaojun-2026/` | B 站 ai-zh (BV12bNB6vEtt) |
 | 11 | 洪力德 (前 SpaceX 高管) | 张小珺 | 3:00:03 | `honglide-spacex-zhang-xiaojun-2026/` | B 站 ai-zh (BV1HfEy6jEUx) |
+| 12 | 李想 (理想汽车, 第二次) | 张小珺 | 2:43:52 | `lixiang-2-zhang-xiaojun-2025/` | B 站 ai-zh (BV1fiybB4EDU) |
 
 **每份输出规模**：约 280-300 行 / 8000-9000 字，9 大块结构（上帝视角 / 12 观点 / 三层挖掘 / 内在张力 / 可复制 vs 不可复制 / 三角色清单 / 方法说明 / 附录）
 
@@ -68,7 +69,6 @@
 | BV1ZczaBJE58 | 印奇出任阶跃星辰董事长 |
 | BV1awiDBDEWS / BV1knvYBDEjs | Manus 出售前访谈 |
 | BV13AmpBiE2o | 朱啸虎第三次访谈 |
-| BV1fiybB4EDU | 李想第二次访谈 |
 | BV1pkyqBxEdB | 干货：开源论文探索之旅 |
 | BV1vMtUzJEC7 | 禾赛李一帆 |
 | BV1cc8kzmEBs | 逐段讲解Kimi K2报告 |
@@ -224,6 +224,14 @@ def clean_vtt(input_file, output_file):
 - "波音" → "播音"；"Lockheed Martin" → "LUKEMARIN"；"Buzz Aldrin" → "buzz oj" / "bus"
 - "cost-plus 合同" → "class plus" / "克拉斯plus"；"SLS" → "SOS"；"CRS 计划" → "CLD" / "CZ计划"
 - "Model T / Model S" → "马老T" / "奥巴马OS"；"《硅谷钢铁侠》" → "硅谷王铁侠"
+- "梁文锋" → "梁冠峰" / "梁文峰"（李想篇）
+- "谢炎（理想 CTO）" → "谢言" / "夕颜" / "戏言" / "希言"
+- "Mind GPT（理想自研模型）" → "MAD jb" / "MAD jpb"
+- "司机大模型" → "4G大模型" / "4G单模型"；"司机 agent" → "A政策" / "A证"
+- "Orin-X" → "ORANX" / "两高入X" / "双ore x"；"Thor-U" → "索尔钢U" / "索尔U"
+- "数字生命" → "危及生命"；"熵减" → "商检" / "商简"；"自由度" → "道伏"
+- "汽车之家" → "70家" / "气质佳"；"秦致" → "秦志"；"樊铮" → "樊争"
+- "陆奇" → "陆琪" / "齐博士"（后者是尊称"奇博士"）；"余凯" → "于凯"
 
 ---
 
@@ -241,6 +249,7 @@ def clean_vtt(input_file, output_file):
 | `v_yangmeng.txt` | 阳萌 B 站 ai-zh (BV1dyE86bENz) | 4657 行 |
 | `v_keliyiming.txt` | 柯丽一鸣 B 站 ai-zh (BV12bNB6vEtt) | 6214 行 |
 | `v_honglide.txt` | 洪力德 B 站 ai-zh (BV1HfEy6jEUx) | 4413 行 |
+| `v_lixiang2.txt` | 李想第二次 B 站 ai-zh (BV1fiybB4EDU) | 4655 行 |
 | `bili_cookies.txt` | Chrome 导出的 B 站 cookies | 3359 行 |
 
 **段永平**字幕没存档，因为是 `/tmp/transcript.txt` 已删（YouTube `1ikLMn2naSA`，时长 1:53:47，可重新下载）

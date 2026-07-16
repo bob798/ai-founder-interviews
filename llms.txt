@@ -17,6 +17,7 @@
 - [阳萌 Anker 安克创新 CEO × 张小珺](https://bob798.github.io/ai-founder-interviews/yangmeng-anker-zhang-xiaojun-2026/analysis.html): 安克创新创始人阳萌，主题为 1357 人群分层、浅海 vs 深海（德州扑克盲注比喻）、第三类公司（总统和联邦模式）、五系转七系、分治法→端到端与存算一体芯片的第一性推演、模型分层如器官、中层管理者不会被 AI 消灭（context+康威定律）、创造者拿七股东拿三。
 - [柯丽一鸣 Physical Intelligence 研究员 × 张小珺](https://bob798.github.io/ai-founder-interviews/keliyiming-pi-zhang-xiaojun-2026/analysis.html): PI（π）强化学习研究员柯丽一鸣，主题为 π0/π0.5/π0.6* 三部曲（能力→泛化→表现）、通用大脑≠人形、灵巧在大脑不在手（筷子机器人）、真机数据信仰与体验数据飞轮、评估是机器人隐形前沿、机器人两大派系族谱（传统 vs 学习）、中美机器人对比（中国硬件统治力）、Covariant 过早商业化教训。
 - [洪力德 前 SpaceX 高管 × 张小珺](https://bob798.github.io/ai-founder-interviews/honglide-spacex-zhang-xiaojun-2026/analysis.html): 前 SpaceX 猎鹰 9 号首席制造工程师洪力德（任职 7 年，离职时管 7 个部门 3000 多个火箭部件），主题为火箭是手段不是目的（猎鹰 1 成功即退役）、每公斤入轨成本 2 万→3000→100 美元、2015-12-21 回收成功才是真转折点、星链与太空数据中心的第一性推演、马斯克三会原则与可乐罐对标法、Mini Cooper 团队与用人观、NASA cost-plus 转向商业订单、SpaceX Mafia 与苹果链/安卓链投资框架。
+- [李想 理想汽车创始人 × 张小珺 第二次访谈](https://bob798.github.io/ai-founder-interviews/lixiang-2-zhang-xiaojun-2025/analysis.html): 理想汽车创始人李想（第二次 3 小时访谈），主题为工具三分级（信息/辅助/生产工具，Agent 的评判标准是能否成为生产工具）、VLA 司机大模型完整训练流程（VL 基座蒸馏→action 后训练→RLHF+世界模型强化）、昆虫→哺乳动物→人类三阶段进化、没法直接摘第十个包子、人类最佳实践是反人性的、5 年内没有通用 agent 只有 agent OS、AGI 终端四特点与终端战胜平台、3–7 人能量场、智慧是处理和万物的关系。
 
 ## 文档 Docs
 
