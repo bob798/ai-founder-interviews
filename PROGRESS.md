@@ -1,12 +1,12 @@
 # YouTube/B站对谈深度分析项目 - 进度记录
 
-> **最后更新**：2026-06-04
+> **最后更新**：2026-07-16
 > **项目目标**：对长访谈视频做"段永平那版"深度分析（5轮 Self-Debate + 12 观点 + 三层挖掘）
 > **模板路径**：`./duan-yongping-fang-sanwen-2025/analysis.md`
 
 ---
 
-## 已完成的分析（7 份）
+## 已完成的分析（8 份）
 
 | # | 嘉宾 | 主持/频道 | 时长 | 目录 | 字幕来源 |
 |---|------|---------|------|------|--------|
@@ -17,6 +17,7 @@
 | 5 | 杨植麟 (Kimi) | 张小珺 113 | 1:41:14 | `yangzhilin-kimi-zhang-xiaojun-2025/` | B 站 ai-zh |
 | 6 | 罗福莉 (小米大模型) | 张小珺 138 | 3:36:36 | `luofuli-zhang-xiaojun-2025/` | B 站 ai-zh |
 | 7 | 张鹏 (智谱AI) | 张小珺 129 | 2:26:40 | `zhangpeng-zhipu-zhang-xiaojun-2025/` | B 站 ai-zh |
+| 8 | 肖弘 (Manus/Monica) | 张小珺 | 1:10:49 | `xiaohong-manus-zhang-xiaojun-2025/` | B 站 ai-zh (BV1N7oBYNEoU) |
 
 **每份输出规模**：约 280-300 行 / 8000-9000 字，9 大块结构（上帝视角 / 12 观点 / 三层挖掘 / 内在张力 / 可复制 vs 不可复制 / 三角色清单 / 方法说明 / 附录）
 
@@ -67,7 +68,6 @@
 | BV17sNEz2ER8 | 能量奇点 杨钊 (核聚变) |
 | BV1zQL9z3ETw | 奔驰CEO康林松 |
 | BV1q6RzYnENi | 机器人VLA论文解析 |
-| BV1N7oBYNEoU | Manus 创始人肖弘 |
 | BV1ZmAQekEMc | DeepSeek/Kimi/MiniMax 注意力机制 |
 | BV1xuK5eREJi | DeepSeek 关键9篇论文 |
 | BV1Kt68YBEzq | 李想2024访谈 |
@@ -180,6 +180,13 @@ def clean_vtt(input_file, output_file):
 - "K2" → "k two" / "二二"
 - "DeepSeek" → "DeepSeek" / "DPCV3"
 - "ChatGLM" → "全 gm" / "chat gm"
+- "Cursor" → "咳嗽" / "科索" / "cos" / "COSER" / "科色"（肖弘篇高频）
+- "Windsurf" → "window surf" / "windows serf" / "win"
+- "Devin" → "DAVIN" / "单位"
+- "waitlist" → "违停历史"
+- "Monica" → "MONICA" / "莫妮卡"
+- "白鸦（有赞创始人）" → "白鸭鸭"
+- "肖弘" → "肖红" / "小红" / "何小红"
 
 ---
 
@@ -193,6 +200,7 @@ def clean_vtt(input_file, output_file):
 | `v2_yao_en.txt` | 姚顺宇 YouTube 中文 | 6878 行 |
 | `v3_hexp_zh.txt` | 何小鹏 B 站 ai-zh | 2154 行 |
 | `v4_weng_zh.txt` | 翁家翌 YouTube zh-Hans | 3496 行 |
+| `v_xiaohong.txt` | 肖弘 B 站 ai-zh (BV1N7oBYNEoU) | 2046 行 |
 | `bili_cookies.txt` | Chrome 导出的 B 站 cookies | 3359 行 |
 
 **段永平**字幕没存档，因为是 `/tmp/transcript.txt` 已删（YouTube `1ikLMn2naSA`，时长 1:53:47，可重新下载）
@@ -239,3 +247,7 @@ def clean_vtt(input_file, output_file):
 3. **失败案例 > 成功案例**：嘉宾自承的错误暴露方法论真实边界（v2 引入但 v1 没单独成节）
 4. **三种角色清单要可执行**：动作清单，不是原则陈述
 5. **客观局限性声明**：明确告知二阶失真、字幕错误、整理者非专业人士
+6. **时间戳深链回原片**（2026-07 起，肖弘篇首次应用）：
+   - 附录"高密度瞬间"的时间戳做成可点击链接，B 站格式 `https://www.bilibili.com/video/BVxxxx/?t=<秒数>`，YouTube 格式 `https://youtu.be/VIDEO_ID?t=<秒数>`
+   - 第 I 节"上帝视角"后加一张**对谈时间轴导览表**（时间段 | 话题 | 关键内容，段首时间戳带深链），让读者在"分析 ↔ 原片"之间双向定位
+   - 原始字幕不随站点发布（版权，`_subtitles/` 已 exclude），信息连贯靠深链而非转载全文

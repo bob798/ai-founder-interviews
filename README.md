@@ -3,7 +3,7 @@
 > 对中文互联网最有价值的 **AI 创始人、AI 研究员长访谈**（张小珺商业访谈录、WhynotTV、雪球《方略》等）做的**结构化深度拆解**。
 > 每篇分析 = 1 场 2–4 小时对谈 → 8000–9000 字 / 9 大块结构（上帝视角 · 12 个核心观点 · 思想三层挖掘 · 内在张力 · 可复制清单 · 三角色启示）。
 
-**关键词 / Keywords**：AI 创始人访谈、大模型创业、AI 研究方法论、张小珺商业访谈录解读、段永平投资、杨植麟 Kimi、罗福莉 小米大模型、何小鹏 小鹏汽车、张鹏 智谱 AI、姚顺宇 DeepMind/Anthropic、翁家翌 OpenAI、Scaling Law、强化学习 RL、Post-training、Agent、Multi-agent、机会成本、长期主义。
+**关键词 / Keywords**：AI 创始人访谈、大模型创业、AI 研究方法论、张小珺商业访谈录解读、段永平投资、杨植麟 Kimi、罗福莉 小米大模型、何小鹏 小鹏汽车、张鹏 智谱 AI、肖弘 Manus、姚顺宇 DeepMind/Anthropic、翁家翌 OpenAI、Scaling Law、强化学习 RL、Post-training、Agent、Multi-agent、机会成本、长期主义。
 
 ---
 
@@ -30,7 +30,7 @@
 - **投资人 / 行业研究者** —— 一篇笔记抵一次 3 小时播客，带原话时间戳可回溯
 - **个人成长读者** —— 提炼"可复制 vs 不可复制"的方法论清单
 
-目前已收录 **7 篇深度分析**，覆盖大模型、自动驾驶、机器人、AI 投资等方向。
+目前已收录 **8 篇深度分析**，覆盖大模型、AI Agent、自动驾驶、机器人、AI 投资等方向。
 
 ---
 
@@ -45,6 +45,7 @@
 | 5 | **杨植麟** | 创始人 · Kimi / 月之暗面 | 张小珺 #113 | 1:41 | K2、Muon 优化器、Agentic LLM、模型即产品 | [📄 阅读](./yangzhilin-kimi-zhang-xiaojun-2025/analysis.md) |
 | 6 | **罗福莉** | 大模型负责人 · 小米（前 DeepSeek） | 张小珺 #138 | 3:36 | OpenCode、群体智能、Agent 范式、卡资源分配 | [📄 阅读](./luofuli-zhang-xiaojun-2025/analysis.md) |
 | 7 | **张鹏** | CEO · 智谱 AI | 张小珺 #129 | 2:26 | 清华血脉、政策窗口、百模大战、L0/L1/L2 分层 | [📄 阅读](./zhangpeng-zhipu-zhang-xiaojun-2025/analysis.md) |
+| 8 | **肖弘** | 创始人 · Manus / Monica | 张小珺 | 1:10 | 新安迪-比尔定律、真 Agent 架构、博弈式思考 | [📄 阅读](./xiaohong-manus-zhang-xiaojun-2025/analysis.md) |
 
 > 进度、待处理视频与字幕抓取技术细节见 [PROGRESS.md](./PROGRESS.md)。
 
@@ -102,6 +103,13 @@
 - **百模大战焦虑：不是焦虑自己输，是焦虑市场塌掉**。
 - **开源是品牌策略而非纯技术信仰**（GLM-130B / ChatGLM-6B）。
 - 👉 [完整分析](./zhangpeng-zhipu-zhang-xiaojun-2025/analysis.md)
+
+### 8. 肖弘（Manus 创始人）× 张小珺：一场发布前 20 天的"预告式访谈"
+> 录制于 Manus 发布前约 20 天，肖弘全程在描述那个"还没发布的 agent 产品"。
+- **新时代的安迪-比尔定律**——模型能力外溢，壳也要进化，第三方把用户可感知价值呈现出来。
+- **真 Agent = 虚拟机 + 浏览器 + 自己写代码调 API**——接一堆 API 是在做功能机。
+- **用博弈的方式思考，而不是逻辑推导**——让自己成为博弈中那个重要的变量。
+- 👉 [完整分析](./xiaohong-manus-zhang-xiaojun-2025/analysis.md)
 
 ---
 

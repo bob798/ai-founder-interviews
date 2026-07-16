@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "AI 创始人 & 研究员深度访谈分析"
-description: "对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解：段永平、姚顺宇、翁家翌、何小鹏、杨植麟 Kimi、罗福莉、张鹏 智谱 AI。"
+description: "对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解：段永平、姚顺宇、翁家翌、何小鹏、杨植麟 Kimi、罗福莉、张鹏 智谱 AI、肖弘 Manus。"
 ---
 
 # AI 创始人 & 研究员深度访谈分析
@@ -9,7 +9,7 @@ description: "对中文互联网最有价值的 AI 创始人、AI 研究员长�
 > 对中文互联网最有价值的 **AI 创始人、AI 研究员长访谈**（张小珺商业访谈录、WhynotTV、雪球《方略》）做的**结构化深度拆解**。
 > 每篇 = 1 场 2–4 小时对谈 → 8000–9000 字 / 9 大块结构（上帝视角 · 12 个核心观点 · 思想三层挖掘 · 内在张力 · 可复制清单 · 三角色启示）。
 
-**关键词**：AI 创始人访谈、大模型创业、AI 研究方法论、张小珺商业访谈录解读、段永平投资、杨植麟 Kimi、罗福莉 小米大模型、何小鹏 小鹏汽车、张鹏 智谱 AI、姚顺宇 DeepMind/Anthropic、翁家翌 OpenAI、Scaling Law、强化学习 RL、Post-training、Agent、Multi-agent、长期主义。
+**关键词**：AI 创始人访谈、大模型创业、AI 研究方法论、张小珺商业访谈录解读、段永平投资、杨植麟 Kimi、罗福莉 小米大模型、何小鹏 小鹏汽车、张鹏 智谱 AI、肖弘 Manus、姚顺宇 DeepMind/Anthropic、翁家翌 OpenAI、Scaling Law、强化学习 RL、Post-training、Agent、Multi-agent、长期主义。
 
 ---
 
@@ -24,6 +24,7 @@ description: "对中文互联网最有价值的 AI 创始人、AI 研究员长�
 | 5 | **杨植麟** | 创始人 · Kimi / 月之暗面 | 张小珺 #113 | 1:41 | K2、Muon、Agentic LLM、模型即产品 | [阅读](./yangzhilin-kimi-zhang-xiaojun-2025/analysis.html) |
 | 6 | **罗福莉** | 大模型负责人 · 小米（前 DeepSeek） | 张小珺 #138 | 3:36 | OpenCode、群体智能、Agent 范式 | [阅读](./luofuli-zhang-xiaojun-2025/analysis.html) |
 | 7 | **张鹏** | CEO · 智谱 AI | 张小珺 #129 | 2:26 | 百模大战、政策窗口、L0/L1/L2 分层 | [阅读](./zhangpeng-zhipu-zhang-xiaojun-2025/analysis.html) |
+| 8 | **肖弘** | 创始人 · Manus / Monica | 张小珺 | 1:10 | 新安迪-比尔定律、真 Agent 架构、博弈式思考 | [阅读](./xiaohong-manus-zhang-xiaojun-2025/analysis.html) |
 
 ---
 
@@ -57,6 +58,10 @@ Agent 是弥补行动缺陷的协调层 · 训模型 ≈ 管团队 · 卡在卡�
 成果转化 = 政策窗口 × 团队准备 · 百模大战焦虑的是市场塌掉 · 开源是品牌策略。
 [完整分析 →](./zhangpeng-zhipu-zhang-xiaojun-2025/analysis.html)
 
+### 8. 肖弘（Manus 创始人）× 张小珺：一场发布前 20 天的"预告式访谈"
+新安迪-比尔定律 · 真 Agent = 虚拟机+浏览器+自写代码 · 用博弈而非逻辑推导思考。
+[完整分析 →](./xiaohong-manus-zhang-xiaojun-2025/analysis.html)
+
 ---
 
 ## 分析方法
@@ -70,7 +75,10 @@ Agent 是弥补行动缺陷的协调层 · 训模型 ≈ 管团队 · 卡在卡�
 ## 常见问题 FAQ
 
 **张小珺商业访谈录有哪些值得看的 AI 访谈分析？**
-本站收录 7 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）。
+本站收录 8 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）、肖弘（Manus 创始人）。
+
+**Manus 创始人肖弘说的"真 Agent 架构"是什么？**
+虚拟机 + 浏览器 + 让模型自己写代码调用 API。给 chatbot 一个个接 API 是在做"功能机"；真 agent 应能自主解决长尾需求。该访谈录制于 Manus 发布前约 20 天，是其架构最早的公开描述。
 
 **杨植麟 Kimi K2 的关键创新是什么？**
 三点：用 Muon 优化器替代 Adam（token efficiency 约提升 2 倍）、大规模 MoE 架构、以及数据改写以避免过拟合到原始 token。
