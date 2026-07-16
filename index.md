@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "AI 创始人 & 研究员深度访谈分析"
-description: "对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解：段永平、姚顺宇、翁家翌、何小鹏、杨植麟 Kimi、罗福莉、张鹏 智谱 AI、肖弘 Manus。"
+description: "对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解：段永平、姚顺宇、翁家翌、何小鹏、杨植麟 Kimi、罗福莉、张鹏 智谱 AI、肖弘 Manus、阳萌 Anker。"
 ---
 
 # AI 创始人 & 研究员深度访谈分析
@@ -25,6 +25,7 @@ description: "对中文互联网最有价值的 AI 创始人、AI 研究员长�
 | 6 | **罗福莉** | 大模型负责人 · 小米（前 DeepSeek） | 张小珺 #138 | 3:36 | OpenCode、群体智能、Agent 范式 | [阅读](./luofuli-zhang-xiaojun-2025/analysis.html) |
 | 7 | **张鹏** | CEO · 智谱 AI | 张小珺 #129 | 2:26 | 百模大战、政策窗口、L0/L1/L2 分层 | [阅读](./zhangpeng-zhipu-zhang-xiaojun-2025/analysis.html) |
 | 8 | **肖弘** | 创始人 · Manus / Monica | 张小珺 | 1:10 | 新安迪-比尔定律、真 Agent 架构、博弈式思考 | [阅读](./xiaohong-manus-zhang-xiaojun-2025/analysis.html) |
+| 9 | **阳萌** | 创始人 · Anker 安克创新 | 张小珺 | 3:37 | 1357 人群、浅海战略、第三类公司、存算一体 | [阅读](./yangmeng-anker-zhang-xiaojun-2026/analysis.html) |
 
 ---
 
@@ -62,6 +63,10 @@ Agent 是弥补行动缺陷的协调层 · 训模型 ≈ 管团队 · 卡在卡�
 新安迪-比尔定律 · 真 Agent = 虚拟机+浏览器+自写代码 · 用博弈而非逻辑推导思考。
 [完整分析 →](./xiaohong-manus-zhang-xiaojun-2025/analysis.html)
 
+### 9. 阳萌（Anker 安克创新 CEO）× 张小珺：一个"好学生"在自己公司里的二次创业
+1357 人群 / 浅海深海 / 第三类公司 · 分治法 → 端到端与存算一体芯片 · 中层管理者不会被 AI 消灭。
+[完整分析 →](./yangmeng-anker-zhang-xiaojun-2026/analysis.html)
+
 ---
 
 ## 分析方法
@@ -75,7 +80,10 @@ Agent 是弥补行动缺陷的协调层 · 训模型 ≈ 管团队 · 卡在卡�
 ## 常见问题 FAQ
 
 **张小珺商业访谈录有哪些值得看的 AI 访谈分析？**
-本站收录 8 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）、肖弘（Manus 创始人）。
+本站收录 9 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）、肖弘（Manus 创始人）、阳萌（Anker 安克创新 CEO）。
+
+**阳萌说的"第三类公司"是什么？**
+第一类公司做少量超级品类（苹果、特斯拉），第二类做少量中小品类（大多数公司），第三类**系统性地做好几十个中小品类**（索尼、宝洁、耐克、德州仪器）。第三类公司需要"总统和联邦"而非"国王和骑士团"的管理模式——这是安克的目标形态。
 
 **Manus 创始人肖弘说的"真 Agent 架构"是什么？**
 虚拟机 + 浏览器 + 让模型自己写代码调用 API。给 chatbot 一个个接 API 是在做"功能机"；真 agent 应能自主解决长尾需求。该访谈录制于 Manus 发布前约 20 天，是其架构最早的公开描述。

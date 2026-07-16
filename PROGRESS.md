@@ -6,7 +6,7 @@
 
 ---
 
-## 已完成的分析（8 份）
+## 已完成的分析（9 份）
 
 | # | 嘉宾 | 主持/频道 | 时长 | 目录 | 字幕来源 |
 |---|------|---------|------|------|--------|
@@ -18,6 +18,7 @@
 | 6 | 罗福莉 (小米大模型) | 张小珺 138 | 3:36:36 | `luofuli-zhang-xiaojun-2025/` | B 站 ai-zh |
 | 7 | 张鹏 (智谱AI) | 张小珺 129 | 2:26:40 | `zhangpeng-zhipu-zhang-xiaojun-2025/` | B 站 ai-zh |
 | 8 | 肖弘 (Manus/Monica) | 张小珺 | 1:10:49 | `xiaohong-manus-zhang-xiaojun-2025/` | B 站 ai-zh (BV1N7oBYNEoU) |
+| 9 | 阳萌 (Anker 安克创新) | 张小珺 | 3:37:32 | `yangmeng-anker-zhang-xiaojun-2026/` | B 站 ai-zh (BV1dyE86bENz) |
 
 **每份输出规模**：约 280-300 行 / 8000-9000 字，9 大块结构（上帝视角 / 12 观点 / 三层挖掘 / 内在张力 / 可复制 vs 不可复制 / 三角色清单 / 方法说明 / 附录）
 
@@ -41,6 +42,17 @@
 1. **最优解**：用户手动从小宇宙/张小珺公众号/Podwise 复制文字版
 2. **次优解**：用付费 API (Whisper API / Deepgram) 转录音频，估计 $5-15 总成本
 3. **本地解**：装 whisper 本地转录，但本机 Intel Mac 跑 ~15-20 小时不现实
+
+---
+
+## 2026-07-16 检索到的频道新访谈（有 ai-zh 字幕，待分析）
+
+| BV | 标题 | 时长 | 上传 |
+|----|------|------|------|
+| BV12bNB6vEtt | 柯丽一鸣 (Physical Intelligence)：PI 开源模型研究、机器人江湖 | 3:46:12 | 2026-07-16 |
+| BV1HfEy6jEUx | 洪力德 (前 SpaceX 高管)：口述 SpaceX 开发史、马斯克用人观 | 3:00:03 | 2026-06-12 |
+
+（同批检索到的 BV1d4GU6wEDo 何小鹏第二次 / BV1YR5E6EE9o 姚顺宇 / BV1iVoVBgERD 罗福莉为已分析期数的 B 站上传，勿重复分析）
 
 ---
 
@@ -187,6 +199,13 @@ def clean_vtt(input_file, output_file):
 - "Monica" → "MONICA" / "莫妮卡"
 - "白鸦（有赞创始人）" → "白鸭鸭"
 - "肖弘" → "肖红" / "小红" / "何小红"
+- "阳萌" → "杨萌"
+- "拓竹 (Bambu Lab)" → "拓主" / "兔子" / "拓者"；"陶冶" → "陶博"
+- "爱普生 (Epson)" → "艾弗森"
+- "Jeff Dean" → "JEFFIN" / "jeff in"；"Sanjay Ghemawat" → "sanjjo white"
+- "Scrum" → "死光" / "司法" / "SCP" / "SCM" / "swam"
+- "《领导梯队》(The Leadership Pipeline)" → "领导阶梯"；"拉姆·查兰" → "拉姆查兰"
+- "《有限与无限的游戏》" → "有限的无限无限的游戏"
 
 ---
 
@@ -201,6 +220,7 @@ def clean_vtt(input_file, output_file):
 | `v3_hexp_zh.txt` | 何小鹏 B 站 ai-zh | 2154 行 |
 | `v4_weng_zh.txt` | 翁家翌 YouTube zh-Hans | 3496 行 |
 | `v_xiaohong.txt` | 肖弘 B 站 ai-zh (BV1N7oBYNEoU) | 2046 行 |
+| `v_yangmeng.txt` | 阳萌 B 站 ai-zh (BV1dyE86bENz) | 4657 行 |
 | `bili_cookies.txt` | Chrome 导出的 B 站 cookies | 3359 行 |
 
 **段永平**字幕没存档，因为是 `/tmp/transcript.txt` 已删（YouTube `1ikLMn2naSA`，时长 1:53:47，可重新下载）

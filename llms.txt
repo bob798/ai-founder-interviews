@@ -14,6 +14,7 @@
 - [罗福莉 小米大模型 × 张小珺 #138](https://bob798.github.io/ai-founder-interviews/luofuli-zhang-xiaojun-2025/analysis.html): 小米大模型负责人、前 DeepSeek 罗福莉，主题为 OpenCode 认知革命、Agent 是弥补行动缺陷的协调层、群体智能、训模型≈管团队、去 DAU 叙事、卡资源 3:1:1。
 - [张鹏 智谱 AI CEO × 张小珺 #129](https://bob798.github.io/ai-founder-interviews/zhangpeng-zhipu-zhang-xiaojun-2025/analysis.html): 智谱 AI CEO 张鹏，主题为成果转化=政策窗口×团队准备、认知智能≠通用智能、开源是品牌策略、百模大战焦虑的是市场塌掉、L0/L1/L2 模型分层。
 - [肖弘 Manus 创始人 × 张小珺](https://bob798.github.io/ai-founder-interviews/xiaohong-manus-zhang-xiaojun-2025/analysis.html): Manus / Monica 创始人肖弘（录制于 Manus 发布前约 20 天），主题为新安迪-比尔定律（模型能力外溢、壳也要进化）、真 Agent 架构（虚拟机+浏览器+自写代码调 API）、极致不够个性化才够、be yourself 不应激、用博弈而非逻辑推导思考、定价即定位。
+- [阳萌 Anker 安克创新 CEO × 张小珺](https://bob798.github.io/ai-founder-interviews/yangmeng-anker-zhang-xiaojun-2026/analysis.html): 安克创新创始人阳萌，主题为 1357 人群分层、浅海 vs 深海（德州扑克盲注比喻）、第三类公司（总统和联邦模式）、五系转七系、分治法→端到端与存算一体芯片的第一性推演、模型分层如器官、中层管理者不会被 AI 消灭（context+康威定律）、创造者拿七股东拿三。
 
 ## 文档 Docs
 
