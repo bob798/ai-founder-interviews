@@ -6,7 +6,7 @@
 
 ---
 
-## 已完成的分析（10 份）
+## 已完成的分析（11 份）
 
 | # | 嘉宾 | 主持/频道 | 时长 | 目录 | 字幕来源 |
 |---|------|---------|------|------|--------|
@@ -20,6 +20,7 @@
 | 8 | 肖弘 (Manus/Monica) | 张小珺 | 1:10:49 | `xiaohong-manus-zhang-xiaojun-2025/` | B 站 ai-zh (BV1N7oBYNEoU) |
 | 9 | 阳萌 (Anker 安克创新) | 张小珺 | 3:37:32 | `yangmeng-anker-zhang-xiaojun-2026/` | B 站 ai-zh (BV1dyE86bENz) |
 | 10 | 柯丽一鸣 (Physical Intelligence) | 张小珺 | 3:46:12 | `keliyiming-pi-zhang-xiaojun-2026/` | B 站 ai-zh (BV12bNB6vEtt) |
+| 11 | 洪力德 (前 SpaceX 高管) | 张小珺 | 3:00:03 | `honglide-spacex-zhang-xiaojun-2026/` | B 站 ai-zh (BV1HfEy6jEUx) |
 
 **每份输出规模**：约 280-300 行 / 8000-9000 字，9 大块结构（上帝视角 / 12 观点 / 三层挖掘 / 内在张力 / 可复制 vs 不可复制 / 三角色清单 / 方法说明 / 附录）
 
@@ -46,13 +47,9 @@
 
 ---
 
-## 2026-07-16 检索到的频道新访谈（有 ai-zh 字幕，待分析）
+## 2026-07-16 检索到的频道新访谈
 
-| BV | 标题 | 时长 | 上传 |
-|----|------|------|------|
-| BV1HfEy6jEUx | 洪力德 (前 SpaceX 高管)：口述 SpaceX 开发史、马斯克用人观 | 3:00:03 | 2026-06-12 |
-
-（柯丽一鸣 BV12bNB6vEtt 已完成分析，见上表第 10 篇）
+（本批 3 个新访谈已全部完成：柯丽一鸣 BV12bNB6vEtt → 第 10 篇；洪力德 BV1HfEy6jEUx → 第 11 篇；阳萌 BV1dyE86bENz → 第 9 篇）
 
 （同批检索到的 BV1d4GU6wEDo 何小鹏第二次 / BV1YR5E6EE9o 姚顺宇 / BV1iVoVBgERD 罗福莉为已分析期数的 B 站上传，勿重复分析）
 
@@ -219,6 +216,14 @@ def clean_vtt(input_file, output_file):
 - "北极星" → "北京新指标"
 - "Franka" → "FRANA" / "FRANCA" / "FRAN卡"
 - "布尔迪厄《区分》(Distinction)" → "distinct" / "construction of social taste"
+- "SpaceX" → "SPACCESS" / "space赛" / "斯space" / "C4" / "SP萨斯" / "BASSEX" / "success"（洪力德篇高频）
+- "马斯克 (Elon)" → "伊朗" / "英朗" / "音浪" / "银狼" / "尹老" / "英老师" / "影朗" / "樱花" / "以往"
+- "猎鹰 9 号 (Falcon 9)" → "飞鹰9号" / "非9号" / "din9号"；"猎鹰 1 号" → "飞鹰一号" / "非一号"
+- "星舰 (Starship)" → "新建" / "新店" / "心机"；"星链 (Starlink)" → "信链" / "心机网络" / "starling"
+- "xAI" → "FCI" / "XCI" / "XCAI" / "XN"；"龙飞船 (Dragon)" → "飞龙号"
+- "波音" → "播音"；"Lockheed Martin" → "LUKEMARIN"；"Buzz Aldrin" → "buzz oj" / "bus"
+- "cost-plus 合同" → "class plus" / "克拉斯plus"；"SLS" → "SOS"；"CRS 计划" → "CLD" / "CZ计划"
+- "Model T / Model S" → "马老T" / "奥巴马OS"；"《硅谷钢铁侠》" → "硅谷王铁侠"
 
 ---
 
@@ -235,6 +240,7 @@ def clean_vtt(input_file, output_file):
 | `v_xiaohong.txt` | 肖弘 B 站 ai-zh (BV1N7oBYNEoU) | 2046 行 |
 | `v_yangmeng.txt` | 阳萌 B 站 ai-zh (BV1dyE86bENz) | 4657 行 |
 | `v_keliyiming.txt` | 柯丽一鸣 B 站 ai-zh (BV12bNB6vEtt) | 6214 行 |
+| `v_honglide.txt` | 洪力德 B 站 ai-zh (BV1HfEy6jEUx) | 4413 行 |
 | `bili_cookies.txt` | Chrome 导出的 B 站 cookies | 3359 行 |
 
 **段永平**字幕没存档，因为是 `/tmp/transcript.txt` 已删（YouTube `1ikLMn2naSA`，时长 1:53:47，可重新下载）

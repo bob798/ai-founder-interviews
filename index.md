@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "AI 创始人 & 研究员深度访谈分析"
-description: "对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解：段永平、姚顺宇、翁家翌、何小鹏、杨植麟 Kimi、罗福莉、张鹏 智谱 AI、肖弘 Manus、阳萌 Anker、柯丽一鸣 Physical Intelligence。"
+description: "对中文互联网最有价值的 AI 创始人、AI 研究员长访谈（张小珺商业访谈录、WhynotTV、雪球《方略》）做的结构化深度拆解：段永平、姚顺宇、翁家翌、何小鹏、杨植麟 Kimi、罗福莉、张鹏 智谱 AI、肖弘 Manus、阳萌 Anker、柯丽一鸣 Physical Intelligence、洪力德 SpaceX。"
 ---
 
 # AI 创始人 & 研究员深度访谈分析
@@ -27,6 +27,7 @@ description: "对中文互联网最有价值的 AI 创始人、AI 研究员长�
 | 8 | **肖弘** | 创始人 · Manus / Monica | 张小珺 | 1:10 | 新安迪-比尔定律、真 Agent 架构、博弈式思考 | [阅读](./xiaohong-manus-zhang-xiaojun-2025/analysis.html) |
 | 9 | **阳萌** | 创始人 · Anker 安克创新 | 张小珺 | 3:37 | 1357 人群、浅海战略、第三类公司、存算一体 | [阅读](./yangmeng-anker-zhang-xiaojun-2026/analysis.html) |
 | 10 | **柯丽一鸣** | 研究员 · Physical Intelligence (π) | 张小珺 | 3:46 | π 三部曲、不做人形、真机数据、机器人族谱 | [阅读](./keliyiming-pi-zhang-xiaojun-2026/analysis.html) |
+| 11 | **洪力德** | 前 SpaceX 高管 · 硬科技投资人 | 张小珺 | 3:00 | SpaceX 开发史、马斯克用人观、可乐罐第一性、太空产业链 | [阅读](./honglide-spacex-zhang-xiaojun-2026/analysis.html) |
 
 ---
 
@@ -72,6 +73,10 @@ Agent 是弥补行动缺陷的协调层 · 训模型 ≈ 管团队 · 卡在卡�
 π0/π0.5/π0.6* 三部曲（能力→泛化→表现）· 通用大脑≠人形 · 真机数据信仰与体验数据飞轮 · 评估是隐形前沿。
 [完整分析 →](./keliyiming-pi-zhang-xiaojun-2026/analysis.html)
 
+### 11. 洪力德（前 SpaceX 高管）× 张小珺：一份"1 到 1000 阶段"的一线口述史
+火箭是手段不是目的 · 每公斤成本 2 万→3000→100 美元 · 可乐罐第一性与马斯克三会原则 · NASA cost-plus 转向。
+[完整分析 →](./honglide-spacex-zhang-xiaojun-2026/analysis.html)
+
 ---
 
 ## 分析方法
@@ -85,7 +90,10 @@ Agent 是弥补行动缺陷的协调层 · 训模型 ≈ 管团队 · 卡在卡�
 ## 常见问题 FAQ
 
 **张小珺商业访谈录有哪些值得看的 AI 访谈分析？**
-本站收录 10 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）、肖弘（Manus 创始人）、阳萌（Anker 安克创新 CEO）、柯丽一鸣（Physical Intelligence 研究员）。
+本站收录 11 篇深度分析：段永平（投资）、姚顺宇（Google DeepMind / Anthropic 研究员）、翁家翌（OpenAI Infra）、何小鹏（小鹏汽车）、杨植麟（Kimi / 月之暗面）、罗福莉（小米大模型，前 DeepSeek）、张鹏（智谱 AI CEO）、肖弘（Manus 创始人）、阳萌（Anker 安克创新 CEO）、柯丽一鸣（Physical Intelligence 研究员）、洪力德（前 SpaceX 高管）。
+
+**SpaceX 把每公斤入轨成本降了多少？**
+据前 SpaceX 猎鹰 9 号首席制造工程师洪力德：SpaceX 之前约 2 万美元/公斤，猎鹰 9 号回收后降到约 3000 美元，星舰目标是 100 美元以下——降到 1% 时，"以前太空里的天方夜谭在账上都算得过来"。
 
 **Physical Intelligence（PI/π）的 π0、π0.5、π0.6* 分别解决什么问题？**
 π0 回答"能力"（叠衣服、叠箱子等此前做不到的任务能不能做），π0.5 回答"泛化"（在 100 个真实家庭做开放世界实验，发现 in-distribution 存在"够用的尺寸"），π0.6* 回答"表现"（用机器人自采的体验数据做强化学习，叠衣服吞吐量超越最好的人类数据采集员）。
